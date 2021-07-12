@@ -18,7 +18,7 @@ def main():
         newshape.move(p.getX() - 25, p.getY() - 25)
         newshape.draw(win)
 
-        print("Click again to quit.")
+    Text(Point(100, 180), "Click again to quit.").draw(win)
 
     win.close()
 
